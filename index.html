@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets.css">
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">Your Library</div>
+    <div class="container">
+    
+    <div class="sidebar">
+        <div class="sidebarContent"> 
+            <div class=sidebarHeader>Add Book To Library </div>
+            <form action="index.html" class="submitBook" method="post">
+                <div class="inputGroup">
+                    <label for="bookName">Book Name: </label>
+                    <input class="submitBookInput" name="newBookName" id="bookName">
+                </div>
+                <div class="inputGroup">
+                    <label for="bookAuthor"> Book Author: </label>
+                    <input class="submitBookInput" name="newBookAuthor" id="bookAuthor">
+                </div>
+                <div class="inputGroup">
+                    <label for="bookPages"> Book Pages: </label>
+                    <input class="submitBookInput" name="newBookPages" id="bookPages">
+                </div>
+                <div class="inputGroup">
+                <label for="bookStatus"> Read or Not Read</label>
+                <input class="submitBookInput" name="newBookStatus" id="bookStatus">
+                </div>
+                <button class="submitBookButton" type="button">Submit Book</button>
+            </form>
+        </div>
+    </div>
+    <div class="content">
+        
+    </div>
+    </div>
+</body>
+</html>
