@@ -2,12 +2,16 @@ const content = document.querySelector(".content")
 const submitBookButton = document.querySelector(".submitBookButton")
 const myLibrary = [];
 
-function book(title, author, pages, read) {
-    this.title = title;
-    this.author = author;
-    this.pages = pages,
-    this.read = read
-}
+
+class book {
+    constructor(title, author, pages, read) {
+      this.title = title
+      this.author = author
+      this.pages = pages
+      this.read = read
+    }
+  }
+  
 myLibrary.push(new book("Flary", "Flary's Dreams", 200, false))
 console.log(myLibrary)
 function addBookToLibrary(libraryBook) {
